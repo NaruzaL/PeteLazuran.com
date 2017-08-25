@@ -4,22 +4,29 @@
 }
 
 @model IEnumerable<PeteLazuran.Models.Repo>
-
-<h3>My top rated projects:</h3>
-<hr/>
-<ol>
-    @foreach (var repo in Model)
-    {
-        @if (repo.stargazers_count != 0)
+<div class="repos">
+    <h3>My top rated projects:</h3>
+    <hr />
+    <ol>
+        @foreach (var repo in Model)
         {
-            <li>
-                <ul>
-                    <li class="repoName"><a href="@Html.DisplayFor(m => repo.html_url)">@Html.DisplayFor(m => repo.name)</a></li>
-                    <li class="stars">@Html.DisplayFor(m =>repo.stargazers_count)</li>
-                </ul>
-            </li>
-        }
-       
-    }
+            @if (repo.stargazers_count != 0)
+            {
+                <li>
+                    <ul>
+                        <li class="repoName"><a href="@Html.DisplayFor(m => repo.html_url)">@Html.DisplayFor(m => repo.name)</a></li>
+                        <li class="stars">@Html.DisplayFor(m => repo.stargazers_count) star(s)</li>
+                    </ul>
+                </li>
+            }
 
-</ol>
+        }
+
+    </ol>
+    <h4>And a few of my favorites:</h4>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=2-coaPPl-Yk&feature=youtu.be">POLLI - a robotic arm</a></li>
+        <li><a href="https://www.youtube.com/watch?v=wdFfD9CWRW8&feature=youtu.be">A demon capturing quiz game</a></li>
+        <li><a href="https://jmfritz.github.io/GroupWeekProject/">A Super Mario Brothers clone using Phaser</a></li>
+    </ul>
+</div>

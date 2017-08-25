@@ -14,9 +14,8 @@
         {
             <li>
                 <ul>
-                    <li class="repoName">@Html.DisplayFor(m => repo.name)</li>
+                    <li class="repoName"><a href="@Html.DisplayFor(m => repo.html_url)">@Html.DisplayFor(m => repo.name)</a></li>
                     <li class="stars">@Html.DisplayFor(m =>repo.stargazers_count)</li>
-                    <li class="url">@Html.DisplayFor(m => repo.html_url)</li>
                 </ul>
             </li>
         }

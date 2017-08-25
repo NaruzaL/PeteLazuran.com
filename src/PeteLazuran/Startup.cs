@@ -17,10 +17,7 @@ namespace PeteLazuran
         public IConfigurationRoot Configuration { get; set; }
         public Startup(IHostingEnvironment env)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json");
-            Configuration = builder.Build();
+           
         }
         public void ConfigureServices(IServiceCollection services)
         {
@@ -30,12 +27,12 @@ namespace PeteLazuran
 
         public void Configure(IApplicationBuilder app)
         {
-            app.UseIdentity();
+            app.UseStaticFiles();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Account}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
             app.Run(async (context) =>
             {

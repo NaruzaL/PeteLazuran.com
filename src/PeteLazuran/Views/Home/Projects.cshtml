@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Projects";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<PeteLazuran.Models.Repo>
+
+<h3>My top rated projects:</h3>
+<hr/>
+<ol>
+    @foreach (var repo in Model)
+    {
+        @if (repo.stargazers_count != 0)
+        {
+            <li>
+                <ul>
+                    <li class="repoName">@Html.DisplayFor(m => repo.name)</li>
+                    <li class="stars">@Html.DisplayFor(m =>repo.stargazers_count)</li>
+                    <li class="url">@Html.DisplayFor(m => repo.html_url)</li>
+                </ul>
+            </li>
+        }
+       
+    }
+
+</ol>

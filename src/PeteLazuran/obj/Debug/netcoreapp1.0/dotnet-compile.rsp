@@ -1,5 +1,5 @@
---temp-output:c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\obj\Debug\netcoreapp1.0\
---out:c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\bin\Debug\netcoreapp1.0\PeteLazuran.dll
+--temp-output:C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\obj\Debug\netcoreapp1.0\
+--out:C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\bin\Debug\netcoreapp1.0\PeteLazuran.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -207,9 +207,9 @@
 --reference:C:\Users\pdlaz\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\pdlaz\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\pdlaz\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
---resource:"c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\obj\Debug\netcoreapp1.0\PeteLazurandotnet-compile.deps.json",PeteLazuran.deps.json
-c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\Program.cs
-c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\Startup.cs
-c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\Controllers\HomeController.cs
-c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\Models\EnvironmentVariables.cs
-c:\users\pdlaz\onedrive\documents\visual studio 2015\Projects\PeteLazuran\src\PeteLazuran\Models\Repo.cs
+--resource:"C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\obj\Debug\netcoreapp1.0\PeteLazurandotnet-compile.deps.json",PeteLazuran.deps.json
+C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\Program.cs
+C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\Startup.cs
+C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\Controllers\HomeController.cs
+C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\Models\EnvironmentVariables.cs
+C:\Users\pdlaz\OneDrive\Documents\Visual Studio 2015\Projects\PeteLazuran\src\PeteLazuran\Models\Repo.cs
